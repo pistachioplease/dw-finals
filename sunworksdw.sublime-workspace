@@ -1,0 +1,815 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"form",
+				"form-Education"
+			],
+			[
+				"c",
+				"currency"
+			],
+			[
+				"btn",
+				"btn-add-new"
+			],
+			[
+				"organi",
+				"organisation-models"
+			],
+			[
+				"for",
+				"form-add-currency-model"
+			],
+			[
+				"competency-question",
+				"competency-questions-list"
+			],
+			[
+				"tpl",
+				"tplsurvey360row"
+			],
+			[
+				"t",
+				"tplinterviewrow"
+			],
+			[
+				"com",
+				"competencylevel"
+			],
+			[
+				"uuid",
+				"uuid_currency_level"
+			],
+			[
+				"ques",
+				"questionval"
+			],
+			[
+				"inter",
+				"interview"
+			],
+			[
+				"or",
+				"organisation-name"
+			],
+			[
+				"orga",
+				"organisation-currency-model"
+			],
+			[
+				"json_",
+				"json_decode"
+			],
+			[
+				"ind",
+				"indicators"
+			],
+			[
+				"Inter",
+				"interactions"
+			],
+			[
+				"id_",
+				"id_requirement_type"
+			],
+			[
+				"require",
+				"Requirements"
+			],
+			[
+				"first",
+				"firstOrFail"
+			],
+			[
+				"us",
+				"users-list"
+			],
+			[
+				"ema",
+				"email-list-users"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"o",
+				"organisation-logo"
+			],
+			[
+				"load",
+				"loadOrganisation"
+			],
+			[
+				"cu",
+				"currentValue"
+			],
+			[
+				"tpl_",
+				"tpl_btnactions"
+			],
+			[
+				"fin",
+				"financial_period_end_month"
+			],
+			[
+				"qua",
+				"qualification_type"
+			],
+			[
+				"defaultQ",
+				"defaultQualificationType"
+			],
+			[
+				"Qua",
+				"QualificationType"
+			],
+			[
+				"requi",
+				"requirement_type"
+			],
+			[
+				"organ",
+				"organization_financial_period"
+			],
+			[
+				"orgin",
+				"organization_type"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"you",
+				"you_label"
+			],
+			[
+				"you_s",
+				"you_star_container"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"sco",
+				"score-chart"
+			],
+			[
+				"sc",
+				"scoreArray"
+			],
+			[
+				"boo",
+				"booking-name"
+			],
+			[
+				"days",
+				"days_left"
+			],
+			[
+				"Load",
+				"LoadCurrentOrder"
+			],
+			[
+				"GetS",
+				"GetSql"
+			],
+			[
+				"main",
+				"maintenance-reservation"
+			],
+			[
+				"mainte",
+				"maintenace_reservations"
+			],
+			[
+				"maint",
+				"maintenace_reservations"
+			],
+			[
+				"check",
+				"checkoutpercentage"
+			],
+			[
+				"lst",
+				"lastreading-fuel"
+			],
+			[
+				"current",
+				"current_path"
+			],
+			[
+				"curr",
+				"current_page"
+			],
+			[
+				"wee",
+				"weektotal"
+			],
+			[
+				"month",
+				"monthtotal"
+			],
+			[
+				"last",
+				"last_name"
+			],
+			[
+				"cred",
+				"credit_card_cvv"
+			],
+			[
+				"paymen",
+				"payment_method"
+			],
+			[
+				"pare",
+				"parentrow"
+			],
+			[
+				"bill",
+				"billingBreakdown"
+			],
+			[
+				"booking",
+				"bookingjson"
+			],
+			[
+				"query",
+				"queryStringify"
+			],
+			[
+				"am",
+				"amendmentpayment"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"add",
+				"additionalItemTemplate"
+			],
+			[
+				"up",
+				"upandcomingmaintenance"
+			],
+			[
+				"late",
+				"lateFees"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"quer",
+				"queryStringify"
+			],
+			[
+				"pars",
+				"parseJSON"
+			],
+			[
+				"checkinp",
+				"checkinpayment"
+			],
+			[
+				"id",
+				"id_vehicle"
+			],
+			[
+				"vhe",
+				"vehicle_uuid"
+			],
+			[
+				"b",
+				"billingjson"
+			],
+			[
+				"pay",
+				"paypal_response"
+			],
+			[
+				"alert",
+				"alert-success"
+			],
+			[
+				"locationTab",
+				"locationTableBody"
+			],
+			[
+				"Get",
+				"GetSelect"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"save",
+				"savecompanydetails"
+			],
+			[
+				"chck",
+				"check_number"
+			],
+			[
+				"d",
+				"disabled	Attr"
+			],
+			[
+				"get",
+				"getTime"
+			],
+			[
+				"B",
+				"BookList"
+			],
+			[
+				"array",
+				"array"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 68.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 398.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/sunworksdw",
+		"/var/www/sunworksdw/app",
+		"/var/www/sunworksdw/config",
+		"/var/www/sunworksdw/resources"
+	],
+	"file_history":
+	[
+		"/tmp/fz3temp-1/Gardenerd_Podcasts.xml",
+		"/tmp/fz3temp-1/Gardenerd_Podcasts 2.xml",
+		"/var/www/hrmonise5/app/Http/Controllers/AdminController.php",
+		"/var/www/hrmonise5/app/Http/routes.php",
+		"/var/www/hrmonise5/resources/views/layout/admin.blade.php",
+		"/var/www/hrmonise5/resources/views/admin/qualifications.blade.php",
+		"/var/www/hrmonise5/resources/views/layout/components.blade.php",
+		"/var/www/hrmonise5/resources/views/layout/superadmin.blade.php",
+		"/var/www/hrmonise5/database/seeds/QualificationsTableSeeder.php",
+		"/var/www/hrmonise5/app/Http/Controllers/OrganisationController.php",
+		"/var/www/hrmonise5/resources/views/organisation/components.blade.php",
+		"/var/www/hrmonise5/resources/views/wireframe/currencymodel.blade.php",
+		"/var/www/hrmonise5/app/Http/Controllers/CurrencyModelController.php",
+		"/var/www/hrmonise5/resources/views/wireframe/verificationofcompetency.blade.php",
+		"/home/td/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/td/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/var/www/hrmonise5/resources/views/wireframe/layoutsandcomponents/tables.blade.php",
+		"/var/www/hrmonise5/resources/views/wireframe/layoutsandcomponents/alerts.blade.php",
+		"/var/www/hrmonise5/resources/views/wireframe/organisations.blade.php",
+		"/var/www/hrmonise5/resources/views/superadmin/competencyquestionmanagement.blade.php",
+		"/var/www/hrmonise5/app/Http/Controllers/WireframeController.php",
+		"/var/www/hrmonise5/resources/views/wireframe/layoutsandcomponents/simpletables.blade.php",
+		"/var/www/hrmonise5/app/Http/Controllers/SuperadminController.php",
+		"/var/www/hrmonise5/app/Http/Controllers/CompetencyQuestionController.php",
+		"/var/www/hrmonise5/app/CompetencyLevels.php",
+		"/var/www/hrmonise5/public/scripts/js/master.js",
+		"/var/www/hrmonise5/app/CompetencyQuestions.php",
+		"/var/www/hrmonise5/database/seeds/CompetencyLevelsTableSeeder.php",
+		"/var/www/hrmonise5/public/scripts/js/organisation.js",
+		"/var/www/hrmonise5/app/CompetencyCluster.php",
+		"/var/www/hrmonise5/app/Competency.php",
+		"/var/www/hrmonise5/app/Http/Controllers/CompetencyController.php",
+		"/var/www/hrmonise5/storage/logs/laravel-2015-05-20.log",
+		"/var/www/hrmonise5/database/migrations/2015_05_19_085647_alter_competency_questions_table_rename_fk.php",
+		"/var/www/hrmonise5/resources/views/wireframe/competencyquestionmanagement.blade.php",
+		"/var/www/hrmonise5/app/Notification.php",
+		"/var/www/hrmonise5/app/Organisation.php",
+		"/var/www/hrmonise5/app/OrganisationFinancialPeriod.php",
+		"/var/www/hrmonise5/app/OrganisationGrouping.php",
+		"/var/www/hrmonise5/app/OrganisationLocation.php",
+		"/var/www/hrmonise5/app/OrganisationTraining.php",
+		"/var/www/hrmonise5/app/PerformanceAccountabilityArea.php",
+		"/var/www/hrmonise5/app/PerformanceMeasures.php",
+		"/var/www/hrmonise5/app/PerformanceProcedureForMeasuring.php",
+		"/var/www/hrmonise5/app/QualificationType.php",
+		"/var/www/hrmonise5/app/Qualifications.php",
+		"/var/www/hrmonise5/app/RequirementType.php",
+		"/var/www/hrmonise5/app/Requirements.php",
+		"/var/www/hrmonise5/app/RoleCategories.php",
+		"/var/www/hrmonise5/app/Interactions.php",
+		"/var/www/hrmonise5/app/InteractionType.php",
+		"/var/www/hrmonise5/app/Courses.php",
+		"/var/www/hrmonise5/app/CurrencyModel.php",
+		"/var/www/hrmonise5/app/ISO4217Currency.php",
+		"/var/www/hrmonise5/app/Attributes.php",
+		"/var/www/hrmonise5/app/AttributeType.php",
+		"/var/www/hrmonise5/database/seeds/ISO4217CurrencyTableSeeder.php",
+		"/var/www/hrmonise5/public/scripts/vendor/bootstrap-validator/docs/index.html",
+		"/var/www/hrmonise5/resources/views/organisation/edit.blade.php",
+		"/var/www/hrmonise5/resources/views/wireframe/courses.blade.php",
+		"/home/td/Documents/00 WORK/digitaloceanaccess",
+		"/tmp/fz3temp-1/header.php",
+		"/home/td/Downloads/[ www.SMARTORRENT.com ] The.Signal.2014.TRUEFRENCH.DVDRip.XviD-SVR/The.Signal.2014.TRUEFRENCH.DVDRip.XviD-SVR.nfo",
+		"/var/www/hrmonise5/resources/views/wireframe/addcompany.blade.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_14_020021_alter_table_organisation_and_competency_levels.php",
+		"/home/td/Documents/00 WORK/hrmonize/competencylevelstable.sql",
+		"/var/www/hrmonise5/database/seeds/OrganisationTableSeeder.php",
+		"/var/www/hrmonise5/database/seeds/DefaultDataSeeder.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_13_093344_create_iso4217_table.php",
+		"/media/td/TOLITS/01 DEV/freelance/ozonlinesolutions.com - JG/ACCESS - oz.txt",
+		"/var/www/hrmonise5/database/seeds/DatabaseSeeder.php",
+		"/var/www/hrmonise5/app/ISO4217_Currency.php",
+		"/var/www/hrmonise5/database/seeds/AttributesTableSeeder.php",
+		"/var/www/hrmonise5/app/Http/Middleware/VerifyCsrfToken.php",
+		"/home/td/Music/Christafari Discography 1994-2012 (13 Releases)/Christafari - 2003 - Gravity/09 - Rest My Soul.mp3",
+		"/tmp/fz3temp-1/routes.php",
+		"/tmp/fz3temp-1/superadmin.blade.php",
+		"/tmp/fz3temp-1/OrganisationController.php",
+		"/var/www/hrmonise5/resources/views/wireframe/notifications.blade.php",
+		"/var/www/html/testapp2/app/Http/Controllers/CustomerController.php",
+		"/var/www/html/testapp2/resources/views/customers/customer.blade.php",
+		"/var/www/hrmonise5/app/BaseModel.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_08_022700_alter_all_tables_add_softdeletes.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_08_020028_alter_organisation_table_drop_organisation_names.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_05_131324_alter_organisation_table.php",
+		"/var/www/hrmonise5/database/seeds/CompetencyTableSeeder.php",
+		"/var/www/hrmonise5/database/seeds/CompetencyClusterTableSeeder.php",
+		"/var/www/hrmonise5/resources/views/wireframe/companylist.blade.php",
+		"/var/www/hrmonise5/resources/views/wireframe/companylist-components.blade.php",
+		"/var/www/hrmonise5/resources/views/wireframe/defaultorganisation.blade.php",
+		"/var/www/html/hrmonisewire/notifications.php",
+		"/var/www/hrmonise5/app/Http/Controllers/Auth/AuthController.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_07_064827_create_competency_cluster_table.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_07_070000_create_competency_table.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_07_070616_create_competency_levels.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_07_075723_create_competency_questions.php",
+		"/tmp/fz3temp-1/style.css",
+		"/var/www/hrmonise5/database/migrations/2015_04_20_031528_create_organisation_table.php",
+		"/var/www/hrmonise5/database/seeds/PerformanceProcedureForMeasuringTableSeeder.php",
+		"/var/www/hrmonise5/database/seeds/PerformanceAccountabilityAreaTableSeeder.php",
+		"/var/www/hrmonise5/database/seeds/PerformanceMeasuresTableSeeder.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_06_080658_create_performance_procedure_for_measuring_table.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_06_080623_create_performance_accountability_area_table.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_06_032039_create_requirements_table.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_06_080643_create_performance_measures_table.php",
+		"/var/www/hrmonise5/database/seeds/QualificationTypeTableSeeder.php",
+		"/var/www/hrmonise5/database/seeds/InteractionTypeTableSeeder.php",
+		"/var/www/hrmonise5/database/seeds/InteractionsTableSeeder.php",
+		"/var/www/hrmonise5/database/migrations/2015_04_20_035600_create_interaction_type_table.php",
+		"/var/www/hrmonise5/database/migrations/2015_04_20_035952_create_interactions_table.php",
+		"/var/www/hrmonise5/database/seeds/RequirementsTableSeeder.php",
+		"/var/www/hrmonise5/database/seeds/RequirementTypeTableSeeder.php",
+		"/var/www/hrmonise5/database/migrations/2015_04_20_035229_create_requirement_type_table.php",
+		"/var/www/hrmonise5/database/seeds/CoursesTableSeeder.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_06_030623_alter_courses_table_add_course_comments.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_05_133445_alter_user_table_add_phone.php",
+		"/var/www/hrmonise5/database/seeds/RoleCategoriesTableSeeder.php",
+		"/var/www/hrmonise5/database/seeds/AttributeTypeTableSeeder.php",
+		"/var/www/hrmonise5/database/migrations/2015_04_20_040534_create_attribute_type_table.php",
+		"/home/td/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/html/urbanmotorsdev/module/Application/view/application/index/createbooking.phtml",
+		"/var/www/html/urbanmotorsdev/module/Application/view/application/index/vehicle.phtml",
+		"/var/www/hrmonise5/app/User.php",
+		"/var/www/hrmonise5/database/seeds/CompanySeeder.php",
+		"/var/www/hrmonise5/database/migrations/2015_04_20_074425_create_complexity_table.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_06_011137_create_notifications_table.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_05_132848_create_organisation_group_table.php",
+		"/var/www/hrmonise5/database/migrations/2015_05_05_132859_create_organisation_structure_table.php"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 82.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"datatabl",
+			"&",
+			"\n			",
+			"QualificationType",
+			"save",
+			"')\n",
+			"<a href=\"View Computation\" class=\"view-computatioin\"></a>",
+			"side",
+			"<a href=\"#\">Edit</a>\n                        <a href=\"#\">Delete</a>",
+			"console",
+			"view-questions",
+			".view-questions",
+			"uuid_currency_level",
+			"save-competency",
+			"https",
+			"</li>",
+			"<li  >",
+			"<li >",
+			"salary-model",
+			"RefreshCurrencyModelTable",
+			"currency",
+			"$value",
+			"Hash",
+			"interaction",
+			"attributes",
+			"interaction",
+			"uuid",
+			"getHostname",
+			"uuid",
+			"data['organisation']",
+			"recipients",
+			"jquery",
+			"></",
+			"companyl",
+			"create(",
+			"};",
+			"->softDeletes()",
+			"save-org-details",
+			"popover",
+			"'",
+			"script",
+			"\"",
+			"\n	      ]",
+			"\n	      	",
+			"interactions",
+			"tabs",
+			"default",
+			"company",
+			"modal",
+			"email",
+			"courses",
+			"default",
+			"compon",
+			"thumbnail",
+			"\n                                        <th>Formula</th>",
+			"\n                                    <td>Formula here</td>",
+			"performa",
+			".php",
+			"inclu.pphp",
+			"href=",
+			"return view('",
+			"assets",
+			"assett",
+			"img/",
+			"src=\"",
+			"HEAD",
+			"print",
+			"HEAD",
+			"email",
+			"last",
+			"survey-result",
+			"TO ",
+			"ark.css",
+			".results-salary",
+			"\n{",
+			".results-salary",
+			"f6c7b6",
+			"\n<td></td>",
+			"Commercialisation",
+			"</strong></td>",
+			"<td><strong>",
+			" width=\"193\"",
+			" width=\"0\"",
+			" width=\"432\"",
+			"script",
+			"#testimonials-1 q",
+			"#sidebar .widget h3",
+			"HEAD",
+			"all(",
+			"typeof",
+			"overdue",
+			"overue",
+			"{\n",
+			"GetInse",
+			"Damang",
+			"loadfuelandmileagehistory",
+			"}            ",
+			"mileagehistory",
+			"mileage",
+			"formAmendment",
+			"name=\"amoun",
+			"creditCardDe",
+			"creditcarddetails",
+			"checkScheduleConflicts",
+			"Maintenance Reserv",
+			"responded",
+			"checkoutcar",
+			"checkout",
+			"bookingjson",
+			"id_vehicle",
+			"Other",
+			"other",
+			"GetInsert",
+			"name",
+			"save",
+			"id_vehicle",
+			"checkin",
+			"id_booking",
+			"booking",
+			"id_vehicle",
+			"GetSelec",
+			"queryStringify",
+			"Str",
+			"tringi",
+			"taxablet",
+			"renttotal",
+			"Amount Pa",
+			"btn-make"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"and",
+			"\",\n			",
+			"<a href=\"#\" class=\"view-computatioin\">View Computation</a>",
+			"<a href=\"#\">Edit</a>\n                        <a href=\"#\">Delete</a><button type=\"button\" style=\"background:none;border:none;\" class=\"pull-right\" title=\"\" data-container=\"body\" data-toggle=\"popover\" data-placement=\"auto right\"\n                                data-html=\"true\"\n                                data-content='<a href=\"http://hrmonise5.local/organisation/555c67c603aad/edit\" class=\"btn-edit-organisation\">Edit</a> - <a href=\"#\" class=\"btn-bulk-email\">Bulk Email</a> - <a href=\"http://hrmonise5.local/organisation/555c67c603aad/components\">View Components</a> - <a href=\"#\">Archive</a> - <a href=\"#\">Delete</a>'\n                                data-original-title=\"\">...</button>",
+			"<a href=\"#\">Edit</a>\n                        <a href=\"#\">Delete</a><a href=\"http://hrmonise5.local/organisation/555c67c603aad/edit\" class=\"btn-edit-organisation\">Edit</a> - <a href=\"#\" class=\"btn-bulk-email\">Bulk Email</a> - <a href=\"http://hrmonise5.local/organisation/555c67c603aad/components\">View Components</a> - <a href=\"#\">Archive</a> - <a href=\"#\">Delete</a>",
+			"uuid_competency_level",
+			"",
+			"$orgid",
+			"qualification",
+			"attribute",
+			"organisation",
+			"table(",
+			"});",
+			"->dropSoftDeletes()",
+			"btn-save-org-details",
+			"\"",
+			"'",
+			"]",
+			"",
+			" ",
+			"",
+			"return view('wireframe/",
+			"asset",
+			"assets",
+			"type=\"text/javascrip\" src=\"",
+			"#score-chart",
+			" {",
+			"{",
+			"#score-chart",
+			"E6EBFA",
+			"",
+			"</strong></th>",
+			"<th><strong>",
+			"",
+			"http://gardenerd.com/",
+			"Maintenance"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 106.0
+	},
+	"pinned_build_system": "",
+	"project": "sunworksdw.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 438.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/hrmonise5/hrmonise5.sublime-project"
+			]
+		],
+		"width": 333.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 305.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
