@@ -1,0 +1,14 @@
+.dataTables_wrapper label {
+	font-weight: normal;
+}
+.dataTables_filter {
+	float: right;
+}
+.dataTables_wrapper .pagination {
+	padding: 0;
+}
+
+.panel .form-control {
+	height: auto;
+	padding: 4px 12px;
+}

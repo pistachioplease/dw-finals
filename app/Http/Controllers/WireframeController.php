@@ -1,6 +1,6 @@
 <?php namespace App\Http\Controllers;
 
-class WelcomeController extends Controller {
+class WireframeController extends Controller {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -28,9 +28,39 @@ class WelcomeController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function getIndex()
 	{
-		return view('welcome');
+		return view('wireframe/dashboard');
+	}
+
+	public function getProjects()
+	{
+		return view('wireframe/projects');
+	}
+
+	public function getAdhoc()
+	{
+		return view('wireframe/adhoc');
+	}
+
+	public function getCronlog()
+	{
+		return view('wireframe/cronlog');
+	}
+
+	public function getStagingdb()
+	{
+		return view('wireframe/stagingdb');
+	}
+
+	public function getDwadmin()
+	{
+		return view('wireframe/dwadmin');
+	}
+
+	public function getLogin()
+	{
+		return view('wireframe/login');
 	}
 
 }

@@ -343,6 +343,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/Http/Controllers/WireframeController.php",
+			"settings":
+			{
+				"buffer_size": 1222,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/wireframe/dashboard.blade.php",
+			"settings":
+			{
+				"buffer_size": 3818,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -382,22 +398,62 @@
 	[
 		"/var/www/sunworksdw",
 		"/var/www/sunworksdw/app",
-		"/var/www/sunworksdw/config",
-		"/var/www/sunworksdw/resources"
+		"/var/www/sunworksdw/app/Http",
+		"/var/www/sunworksdw/app/Http/Controllers",
+		"/var/www/sunworksdw/public",
+		"/var/www/sunworksdw/public/bower_resources",
+		"/var/www/sunworksdw/public/bower_resources/bootstrap-daterangepicker",
+		"/var/www/sunworksdw/public/bower_resources/moment",
+		"/var/www/sunworksdw/public/css",
+		"/var/www/sunworksdw/public/js",
+		"/var/www/sunworksdw/resources",
+		"/var/www/sunworksdw/resources/views",
+		"/var/www/sunworksdw/resources/views/auth",
+		"/var/www/sunworksdw/resources/views/includes",
+		"/var/www/sunworksdw/resources/views/layout",
+		"/var/www/sunworksdw/resources/views/wireframe"
 	],
 	"file_history":
 	[
+		"/var/www/sunworksdw/resources/views/includes/head.blade.php",
+		"/var/www/sunworksdw/resources/views/wireframe/login.blade.php",
+		"/var/www/sunworksdw/public/js/google-charts-sample-data.js",
+		"/var/www/sunworksdw/resources/views/app.blade.php",
+		"/var/www/sunworksdw/resources/views/includes/nav.blade.php",
+		"/var/www/sunworksdw/resources/views/includes/footer.blade.php",
+		"/var/www/sunworksdw/resources/views/wireframe/adhoc.blade.php",
+		"/var/www/sunworksdw/resources/views/wireframe/projects.blade.php",
+		"/var/www/sunworksdw/resources/views/wireframe/stagingdb.blade.php",
+		"/var/www/sunworksdw/resources/views/wireframe/dwadmin.blade.php",
+		"/var/www/sunworksdw/resources/views/wireframe/dashboard.blade.php",
+		"/var/www/sunworksdw/public/css/style.css",
+		"/var/www/sunworksdw/resources/views/wireframe/cronlog.blade.php",
+		"/home/td/Documents/TOOLBOX/bootstrap/startbootstrap-sb-admin-2-1.0.7/pages/tables.html",
+		"/var/www/sunworksdw/resources/views/layout/dashboard.blade.php",
+		"/var/www/hrmonise5/resources/views/layout/superadmin.blade.php",
+		"/var/www/sunworksdw/app/Http/Controllers/HomeController.php",
+		"/home/td/Documents/TOOLBOX/bootstrap/startbootstrap-sb-admin-2-1.0.7/pages/flot.html",
+		"/home/td/Documents/TOOLBOX/bootstrap/startbootstrap-sb-admin-2-1.0.7/pages/index.html",
+		"/var/www/hrmonise5/resources/views/wireframe/courses.blade.php",
+		"/var/www/hrmonise5/resources/views/admin/qualifications.blade.php",
+		"/var/www/hrmonise5/resources/views/organisation/components.blade.php",
+		"/var/www/sunworksdw/app/Http/Controllers/WireframeController.php",
+		"/var/www/sunworksdw/resources/views/wireframe/t.blade.php",
+		"/var/www/sunworksdw/bower.json",
+		"/var/www/sunworksdw/app/Http/routes.php",
+		"/var/www/sunworksdw/app/Http/Controllers/WelcomeController.php",
+		"/home/td/Documents/TOOLBOX/bootstrap/startbootstrap-sb-admin-2-1.0.7/js/morris-data.js",
+		"/home/td/Documents/TOOLBOX/bootstrap/startbootstrap-sb-admin-2-1.0.7/js/flot-data.js",
+		"/var/www/sunworksdw/public/bower_resources/startbootstrap-sb-admin-2/dist/js/sb-admin-2.js",
+		"/var/www/hrmonise5/app/Http/Controllers/AdminController.php",
+		"/var/www/hrmonise5/app/Http/Controllers/CompetencyQuestionController.php",
 		"/tmp/fz3temp-1/Gardenerd_Podcasts.xml",
 		"/tmp/fz3temp-1/Gardenerd_Podcasts 2.xml",
-		"/var/www/hrmonise5/app/Http/Controllers/AdminController.php",
 		"/var/www/hrmonise5/app/Http/routes.php",
 		"/var/www/hrmonise5/resources/views/layout/admin.blade.php",
-		"/var/www/hrmonise5/resources/views/admin/qualifications.blade.php",
 		"/var/www/hrmonise5/resources/views/layout/components.blade.php",
-		"/var/www/hrmonise5/resources/views/layout/superadmin.blade.php",
 		"/var/www/hrmonise5/database/seeds/QualificationsTableSeeder.php",
 		"/var/www/hrmonise5/app/Http/Controllers/OrganisationController.php",
-		"/var/www/hrmonise5/resources/views/organisation/components.blade.php",
 		"/var/www/hrmonise5/resources/views/wireframe/currencymodel.blade.php",
 		"/var/www/hrmonise5/app/Http/Controllers/CurrencyModelController.php",
 		"/var/www/hrmonise5/resources/views/wireframe/verificationofcompetency.blade.php",
@@ -410,7 +466,6 @@
 		"/var/www/hrmonise5/app/Http/Controllers/WireframeController.php",
 		"/var/www/hrmonise5/resources/views/wireframe/layoutsandcomponents/simpletables.blade.php",
 		"/var/www/hrmonise5/app/Http/Controllers/SuperadminController.php",
-		"/var/www/hrmonise5/app/Http/Controllers/CompetencyQuestionController.php",
 		"/var/www/hrmonise5/app/CompetencyLevels.php",
 		"/var/www/hrmonise5/public/scripts/js/master.js",
 		"/var/www/hrmonise5/app/CompetencyQuestions.php",
@@ -446,7 +501,6 @@
 		"/var/www/hrmonise5/database/seeds/ISO4217CurrencyTableSeeder.php",
 		"/var/www/hrmonise5/public/scripts/vendor/bootstrap-validator/docs/index.html",
 		"/var/www/hrmonise5/resources/views/organisation/edit.blade.php",
-		"/var/www/hrmonise5/resources/views/wireframe/courses.blade.php",
 		"/home/td/Documents/00 WORK/digitaloceanaccess",
 		"/tmp/fz3temp-1/header.php",
 		"/home/td/Downloads/[ www.SMARTORRENT.com ] The.Signal.2014.TRUEFRENCH.DVDRip.XviD-SVR/The.Signal.2014.TRUEFRENCH.DVDRip.XviD-SVR.nfo",
@@ -488,37 +542,11 @@
 		"/var/www/hrmonise5/database/seeds/PerformanceProcedureForMeasuringTableSeeder.php",
 		"/var/www/hrmonise5/database/seeds/PerformanceAccountabilityAreaTableSeeder.php",
 		"/var/www/hrmonise5/database/seeds/PerformanceMeasuresTableSeeder.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_06_080658_create_performance_procedure_for_measuring_table.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_06_080623_create_performance_accountability_area_table.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_06_032039_create_requirements_table.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_06_080643_create_performance_measures_table.php",
-		"/var/www/hrmonise5/database/seeds/QualificationTypeTableSeeder.php",
-		"/var/www/hrmonise5/database/seeds/InteractionTypeTableSeeder.php",
-		"/var/www/hrmonise5/database/seeds/InteractionsTableSeeder.php",
-		"/var/www/hrmonise5/database/migrations/2015_04_20_035600_create_interaction_type_table.php",
-		"/var/www/hrmonise5/database/migrations/2015_04_20_035952_create_interactions_table.php",
-		"/var/www/hrmonise5/database/seeds/RequirementsTableSeeder.php",
-		"/var/www/hrmonise5/database/seeds/RequirementTypeTableSeeder.php",
-		"/var/www/hrmonise5/database/migrations/2015_04_20_035229_create_requirement_type_table.php",
-		"/var/www/hrmonise5/database/seeds/CoursesTableSeeder.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_06_030623_alter_courses_table_add_course_comments.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_05_133445_alter_user_table_add_phone.php",
-		"/var/www/hrmonise5/database/seeds/RoleCategoriesTableSeeder.php",
-		"/var/www/hrmonise5/database/seeds/AttributeTypeTableSeeder.php",
-		"/var/www/hrmonise5/database/migrations/2015_04_20_040534_create_attribute_type_table.php",
-		"/home/td/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/var/www/html/urbanmotorsdev/module/Application/view/application/index/createbooking.phtml",
-		"/var/www/html/urbanmotorsdev/module/Application/view/application/index/vehicle.phtml",
-		"/var/www/hrmonise5/app/User.php",
-		"/var/www/hrmonise5/database/seeds/CompanySeeder.php",
-		"/var/www/hrmonise5/database/migrations/2015_04_20_074425_create_complexity_table.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_06_011137_create_notifications_table.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_05_132848_create_organisation_group_table.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_05_132859_create_organisation_structure_table.php"
+		"/var/www/hrmonise5/database/migrations/2015_05_06_080658_create_performance_procedure_for_measuring_table.php"
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -532,6 +560,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"login",
+			"\n                        <td class=\"center\">([0-9])</td>",
+			"\n                        <td class=\"center\">([A-Za-z])</td>",
+			"<td class=\"center\">/[A-Za-z]/</td>",
+			"<td class=\"center\">/[A-Za-z/</td>",
+			"../bower_components",
+			"js\"",
+			"../bower_components",
+			"flot",
+			"../js",
+			".js\"",
+			".js",
+			".css\"",
+			"../dist",
+			"../bower_components",
 			"datatabl",
 			"&",
 			"\n			",
@@ -644,29 +687,24 @@
 			"id_vehicle",
 			"Other",
 			"other",
-			"GetInsert",
-			"name",
-			"save",
-			"id_vehicle",
-			"checkin",
-			"id_booking",
-			"booking",
-			"id_vehicle",
-			"GetSelec",
-			"queryStringify",
-			"Str",
-			"tringi",
-			"taxablet",
-			"renttotal",
-			"Amount Pa",
-			"btn-make"
+			"GetInsert"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"",
+			"{{ asset('/bower_resources",
+			"js') }}\"",
+			"js') }}",
+			"{{ asset('/bower_resources",
+			"{{ asset('/js",
+			".js') }}\"",
+			".css') }}\"",
+			"{{ asset('/bower_resources/startbootstrap-sb-admin-2/dist",
+			"{{ asset('/bower_resources",
 			"and",
 			"\",\n			",
 			"<a href=\"#\" class=\"view-computatioin\">View Computation</a>",
@@ -713,8 +751,68 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/Http/Controllers/WireframeController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1176,
+								1176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 411.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/wireframe/dashboard.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3468,
+								3468
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1358.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -761,7 +859,7 @@
 	"project": "sunworksdw.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 90.0
 	},
 	"save_all_on_build": true,
 	"select_file":

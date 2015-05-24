@@ -13,7 +13,7 @@
 
 Route::get('/', 'WelcomeController@index');
 
-Route::controller('wireframe', 'WireframeController@index');
+Route::controller('wireframe', 'WireframeController');
 
 Route::get('home', 'HomeController@index');
 
