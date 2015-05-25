@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+// Route::get('/', 'WelcomeController@index');
 
-Route::controller('wireframe', 'WireframeController');
+Route::controller('/', 'WireframeController');
 
 Route::get('home', 'HomeController@index');
 

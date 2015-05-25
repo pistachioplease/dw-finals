@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getHostname"
+			],
+			[
+				"mont",
+				"month_names"
+			],
+			[
+				"moth",
+				"month_names"
+			],
+			[
+				"create",
+				"createDateRangeArray"
+			],
+			[
 				"form",
 				"form-Education"
 			],
@@ -328,10 +344,6 @@
 				"disabled	Attr"
 			],
 			[
-				"get",
-				"getTime"
-			],
-			[
 				"B",
 				"BookList"
 			],
@@ -344,18 +356,50 @@
 	"buffers":
 	[
 		{
-			"file": "app/Http/Controllers/WireframeController.php",
+			"file": "composer.json",
 			"settings":
 			{
-				"buffer_size": 1222,
+				"buffer_size": 876,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/views/wireframe/dashboard.blade.php",
+			"file": "database/seeds/FactSolarProjectsTableSeeder.php",
 			"settings":
 			{
-				"buffer_size": 3818,
+				"buffer_size": 1090,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/WireframeController.php",
+			"settings":
+			{
+				"buffer_size": 4250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/includes/head.blade.php",
+			"settings":
+			{
+				"buffer_size": 1585,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/wireframe/projects.blade.php",
+			"settings":
+			{
+				"buffer_size": 5211,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/seeds/DimTimeTableSeeder.php",
+			"settings":
+			{
+				"buffer_size": 1770,
 				"line_ending": "Unix"
 			}
 		}
@@ -400,149 +444,151 @@
 		"/var/www/sunworksdw/app",
 		"/var/www/sunworksdw/app/Http",
 		"/var/www/sunworksdw/app/Http/Controllers",
+		"/var/www/sunworksdw/app/Providers",
+		"/var/www/sunworksdw/database",
+		"/var/www/sunworksdw/database/seeds",
 		"/var/www/sunworksdw/public",
-		"/var/www/sunworksdw/public/bower_resources",
-		"/var/www/sunworksdw/public/bower_resources/bootstrap-daterangepicker",
-		"/var/www/sunworksdw/public/bower_resources/moment",
-		"/var/www/sunworksdw/public/css",
 		"/var/www/sunworksdw/public/js",
 		"/var/www/sunworksdw/resources",
+		"/var/www/sunworksdw/resources/assets",
+		"/var/www/sunworksdw/resources/assets/less",
 		"/var/www/sunworksdw/resources/views",
-		"/var/www/sunworksdw/resources/views/auth",
 		"/var/www/sunworksdw/resources/views/includes",
 		"/var/www/sunworksdw/resources/views/layout",
-		"/var/www/sunworksdw/resources/views/wireframe"
+		"/var/www/sunworksdw/resources/views/wireframe",
+		"/var/www/sunworksdw/storage",
+		"/var/www/sunworksdw/storage/logs"
 	],
 	"file_history":
 	[
-		"/var/www/sunworksdw/resources/views/includes/head.blade.php",
-		"/var/www/sunworksdw/resources/views/wireframe/login.blade.php",
 		"/var/www/sunworksdw/public/js/google-charts-sample-data.js",
-		"/var/www/sunworksdw/resources/views/app.blade.php",
-		"/var/www/sunworksdw/resources/views/includes/nav.blade.php",
-		"/var/www/sunworksdw/resources/views/includes/footer.blade.php",
-		"/var/www/sunworksdw/resources/views/wireframe/adhoc.blade.php",
-		"/var/www/sunworksdw/resources/views/wireframe/projects.blade.php",
-		"/var/www/sunworksdw/resources/views/wireframe/stagingdb.blade.php",
-		"/var/www/sunworksdw/resources/views/wireframe/dwadmin.blade.php",
-		"/var/www/sunworksdw/resources/views/wireframe/dashboard.blade.php",
-		"/var/www/sunworksdw/public/css/style.css",
-		"/var/www/sunworksdw/resources/views/wireframe/cronlog.blade.php",
-		"/home/td/Documents/TOOLBOX/bootstrap/startbootstrap-sb-admin-2-1.0.7/pages/tables.html",
-		"/var/www/sunworksdw/resources/views/layout/dashboard.blade.php",
-		"/var/www/hrmonise5/resources/views/layout/superadmin.blade.php",
-		"/var/www/sunworksdw/app/Http/Controllers/HomeController.php",
-		"/home/td/Documents/TOOLBOX/bootstrap/startbootstrap-sb-admin-2-1.0.7/pages/flot.html",
-		"/home/td/Documents/TOOLBOX/bootstrap/startbootstrap-sb-admin-2-1.0.7/pages/index.html",
-		"/var/www/hrmonise5/resources/views/wireframe/courses.blade.php",
-		"/var/www/hrmonise5/resources/views/admin/qualifications.blade.php",
-		"/var/www/hrmonise5/resources/views/organisation/components.blade.php",
-		"/var/www/sunworksdw/app/Http/Controllers/WireframeController.php",
-		"/var/www/sunworksdw/resources/views/wireframe/t.blade.php",
-		"/var/www/sunworksdw/bower.json",
 		"/var/www/sunworksdw/app/Http/routes.php",
-		"/var/www/sunworksdw/app/Http/Controllers/WelcomeController.php",
-		"/home/td/Documents/TOOLBOX/bootstrap/startbootstrap-sb-admin-2-1.0.7/js/morris-data.js",
-		"/home/td/Documents/TOOLBOX/bootstrap/startbootstrap-sb-admin-2-1.0.7/js/flot-data.js",
-		"/var/www/sunworksdw/public/bower_resources/startbootstrap-sb-admin-2/dist/js/sb-admin-2.js",
-		"/var/www/hrmonise5/app/Http/Controllers/AdminController.php",
-		"/var/www/hrmonise5/app/Http/Controllers/CompetencyQuestionController.php",
-		"/tmp/fz3temp-1/Gardenerd_Podcasts.xml",
-		"/tmp/fz3temp-1/Gardenerd_Podcasts 2.xml",
-		"/var/www/hrmonise5/app/Http/routes.php",
-		"/var/www/hrmonise5/resources/views/layout/admin.blade.php",
-		"/var/www/hrmonise5/resources/views/layout/components.blade.php",
-		"/var/www/hrmonise5/database/seeds/QualificationsTableSeeder.php",
-		"/var/www/hrmonise5/app/Http/Controllers/OrganisationController.php",
-		"/var/www/hrmonise5/resources/views/wireframe/currencymodel.blade.php",
-		"/var/www/hrmonise5/app/Http/Controllers/CurrencyModelController.php",
-		"/var/www/hrmonise5/resources/views/wireframe/verificationofcompetency.blade.php",
-		"/home/td/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
-		"/home/td/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-		"/var/www/hrmonise5/resources/views/wireframe/layoutsandcomponents/tables.blade.php",
-		"/var/www/hrmonise5/resources/views/wireframe/layoutsandcomponents/alerts.blade.php",
-		"/var/www/hrmonise5/resources/views/wireframe/organisations.blade.php",
-		"/var/www/hrmonise5/resources/views/superadmin/competencyquestionmanagement.blade.php",
-		"/var/www/hrmonise5/app/Http/Controllers/WireframeController.php",
-		"/var/www/hrmonise5/resources/views/wireframe/layoutsandcomponents/simpletables.blade.php",
-		"/var/www/hrmonise5/app/Http/Controllers/SuperadminController.php",
-		"/var/www/hrmonise5/app/CompetencyLevels.php",
-		"/var/www/hrmonise5/public/scripts/js/master.js",
-		"/var/www/hrmonise5/app/CompetencyQuestions.php",
-		"/var/www/hrmonise5/database/seeds/CompetencyLevelsTableSeeder.php",
-		"/var/www/hrmonise5/public/scripts/js/organisation.js",
-		"/var/www/hrmonise5/app/CompetencyCluster.php",
-		"/var/www/hrmonise5/app/Competency.php",
-		"/var/www/hrmonise5/app/Http/Controllers/CompetencyController.php",
-		"/var/www/hrmonise5/storage/logs/laravel-2015-05-20.log",
-		"/var/www/hrmonise5/database/migrations/2015_05_19_085647_alter_competency_questions_table_rename_fk.php",
-		"/var/www/hrmonise5/resources/views/wireframe/competencyquestionmanagement.blade.php",
-		"/var/www/hrmonise5/app/Notification.php",
-		"/var/www/hrmonise5/app/Organisation.php",
-		"/var/www/hrmonise5/app/OrganisationFinancialPeriod.php",
-		"/var/www/hrmonise5/app/OrganisationGrouping.php",
-		"/var/www/hrmonise5/app/OrganisationLocation.php",
-		"/var/www/hrmonise5/app/OrganisationTraining.php",
-		"/var/www/hrmonise5/app/PerformanceAccountabilityArea.php",
-		"/var/www/hrmonise5/app/PerformanceMeasures.php",
-		"/var/www/hrmonise5/app/PerformanceProcedureForMeasuring.php",
-		"/var/www/hrmonise5/app/QualificationType.php",
-		"/var/www/hrmonise5/app/Qualifications.php",
-		"/var/www/hrmonise5/app/RequirementType.php",
-		"/var/www/hrmonise5/app/Requirements.php",
-		"/var/www/hrmonise5/app/RoleCategories.php",
-		"/var/www/hrmonise5/app/Interactions.php",
-		"/var/www/hrmonise5/app/InteractionType.php",
-		"/var/www/hrmonise5/app/Courses.php",
-		"/var/www/hrmonise5/app/CurrencyModel.php",
-		"/var/www/hrmonise5/app/ISO4217Currency.php",
-		"/var/www/hrmonise5/app/Attributes.php",
-		"/var/www/hrmonise5/app/AttributeType.php",
-		"/var/www/hrmonise5/database/seeds/ISO4217CurrencyTableSeeder.php",
-		"/var/www/hrmonise5/public/scripts/vendor/bootstrap-validator/docs/index.html",
-		"/var/www/hrmonise5/resources/views/organisation/edit.blade.php",
-		"/home/td/Documents/00 WORK/digitaloceanaccess",
-		"/tmp/fz3temp-1/header.php",
-		"/home/td/Downloads/[ www.SMARTORRENT.com ] The.Signal.2014.TRUEFRENCH.DVDRip.XviD-SVR/The.Signal.2014.TRUEFRENCH.DVDRip.XviD-SVR.nfo",
-		"/var/www/hrmonise5/resources/views/wireframe/addcompany.blade.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_14_020021_alter_table_organisation_and_competency_levels.php",
-		"/home/td/Documents/00 WORK/hrmonize/competencylevelstable.sql",
-		"/var/www/hrmonise5/database/seeds/OrganisationTableSeeder.php",
-		"/var/www/hrmonise5/database/seeds/DefaultDataSeeder.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_13_093344_create_iso4217_table.php",
-		"/media/td/TOLITS/01 DEV/freelance/ozonlinesolutions.com - JG/ACCESS - oz.txt",
-		"/var/www/hrmonise5/database/seeds/DatabaseSeeder.php",
-		"/var/www/hrmonise5/app/ISO4217_Currency.php",
-		"/var/www/hrmonise5/database/seeds/AttributesTableSeeder.php",
-		"/var/www/hrmonise5/app/Http/Middleware/VerifyCsrfToken.php",
-		"/home/td/Music/Christafari Discography 1994-2012 (13 Releases)/Christafari - 2003 - Gravity/09 - Rest My Soul.mp3",
-		"/tmp/fz3temp-1/routes.php",
-		"/tmp/fz3temp-1/superadmin.blade.php",
-		"/tmp/fz3temp-1/OrganisationController.php",
-		"/var/www/hrmonise5/resources/views/wireframe/notifications.blade.php",
-		"/var/www/html/testapp2/app/Http/Controllers/CustomerController.php",
-		"/var/www/html/testapp2/resources/views/customers/customer.blade.php",
-		"/var/www/hrmonise5/app/BaseModel.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_08_022700_alter_all_tables_add_softdeletes.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_08_020028_alter_organisation_table_drop_organisation_names.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_05_131324_alter_organisation_table.php",
-		"/var/www/hrmonise5/database/seeds/CompetencyTableSeeder.php",
-		"/var/www/hrmonise5/database/seeds/CompetencyClusterTableSeeder.php",
-		"/var/www/hrmonise5/resources/views/wireframe/companylist.blade.php",
-		"/var/www/hrmonise5/resources/views/wireframe/companylist-components.blade.php",
-		"/var/www/hrmonise5/resources/views/wireframe/defaultorganisation.blade.php",
-		"/var/www/html/hrmonisewire/notifications.php",
-		"/var/www/hrmonise5/app/Http/Controllers/Auth/AuthController.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_07_064827_create_competency_cluster_table.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_07_070000_create_competency_table.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_07_070616_create_competency_levels.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_07_075723_create_competency_questions.php",
-		"/tmp/fz3temp-1/style.css",
-		"/var/www/hrmonise5/database/migrations/2015_04_20_031528_create_organisation_table.php",
-		"/var/www/hrmonise5/database/seeds/PerformanceProcedureForMeasuringTableSeeder.php",
-		"/var/www/hrmonise5/database/seeds/PerformanceAccountabilityAreaTableSeeder.php",
-		"/var/www/hrmonise5/database/seeds/PerformanceMeasuresTableSeeder.php",
-		"/var/www/hrmonise5/database/migrations/2015_05_06_080658_create_performance_procedure_for_measuring_table.php"
+		"/var/www/sunworksdw/resources/views/layout/dashboard.blade.php",
+		"/var/www/sunworksdw/storage/logs/laravel-2015-05-25.log",
+		"/var/www/sunworksdw/app/Providers/AppServiceProvider.php",
+		"/var/www/sunworksdw/resources/views/wireframe/dashboard.blade.php",
+		"/var/www/sunworksdw/app/FactSolarProjects.php",
+		"/var/www/sunworksdw/database/seeds/DimLocationTableSeeder.php",
+		"/var/www/sunworksdw/database/seeds/DatabaseSeeder.php",
+		"/var/www/sunworksdw/database/seeds/DimSalesTeamTableSeeder.php",
+		"/var/www/sunworksdw/database/migrations/2015_05_25_000830_create_factsolarprojects_table.php",
+		"/var/www/sunworksdw/database/seeds/FactSolarProjectsTableSeeder.php",
+		"/var/www/sunworksdw/database/seeds/DimSystemTableSeeder.php",
+		"/var/www/sunworksdw/database/seeds/DimTimeTableSeeder.php",
+		"/var/www/sunworksdw/database/seeds/DimBranchTableSeeder.php",
+		"/var/www/sunworksdw/database/seeds/DimContractorTableSeeder.php",
+		"/var/www/sunworksdw/database/seeds/DimProviderTableSeeder.php",
+		"/var/www/sunworksdw/database/migrations/DimTimeTableSeeder.php",
+		"/var/www/sunworksdw/database/migrations/2015_05_24_225211_create_dimtime_table.php",
+		"/var/www/sunworksdw/database/migrations/2015_05_24_225159_create_dimbranch_table.php",
+		"/var/www/sunworksdw/database/migrations/2015_05_24_225219_create_dimsalesteam_table.php",
+		"/var/www/sunworksdw/database/migrations/2015_05_24_225232_create_dimsystem_table.php",
+		"/var/www/sunworksdw/database/migrations/2015_05_24_225240_create_dimprovider_table.php",
+		"/var/www/sunworksdw/database/migrations/2015_05_24_225138_create_dimcontractor_table.php",
+		"/var/www/sunworksdw/app/DimLocation.php",
+		"/var/www/sunworksdw/database/migrations/2015_05_24_223547_create_dimlocation_table.php",
+		"/var/www/sunworksdw/app/DimProvider.php",
+		"/var/www/sunworksdw/app/DimSalesTeam.php",
+		"/var/www/sunworksdw/app/DimSystem.php",
+		"/var/www/sunworksdw/app/DimTime.php",
+		"/var/www/sunworksdw/app/DimBranch.php",
+		"/var/www/sunworksdw/app/DimContractor.php",
+		"/var/www/sunworksdw/.env",
+		"/var/www/sunworksdw/public/load-to-staging.php",
+		"/var/www/sunworksdw/public/stda/MysqliDb.php",
+		"/var/www/sunworksdw/.env.local",
+		"/var/www/sunworksdw/public/stda/parsecsv.lib.php",
+		"/var/www/sunworksdw/config/app.php",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/accounts/accounts-accounts-tbl-data.csv",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/accounts/accounts-accounts-tbl-delimiter.txt",
+		"/var/www/sunworksdw/database/sugarcrm.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-worksheet-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-workflow_triggershells-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-workflow-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-workflow_schedules-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-workflow_alerts-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-workflow_alertshells-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-workflow_actions-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-workflow_actionshells-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-versions-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-vcals-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-users-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-users_signatures-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-users_password_link-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-users_last_import-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-users_holidays-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-users_feeds-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-user_preferences-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/up-wo/up-wo-upgrade_history-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-tracker_tracker_queries-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-tracker-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-tracker_sessions-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-tracker_perf-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-timeperiods-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-teams-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-team_sets_teams-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-team_sets-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-team_sets_modules-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-team_notices-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-team_memberships-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-taxrates-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-tasks-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-systems-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-sugarfeed-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/su-tr/su-tr-sugarfavorites-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_solar_project_tasks_1_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_solar_project_quotes_1_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_solar_project-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_solar_project_notes_1_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_solar_project_meetings_1_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_solar_project_documents_1_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_solar_project_cstm-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_solar_project_audit-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_commercial-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_commercial_tasks_1_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_commercial_notes_1_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_commercial_documents_2_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_commercial_documents_1_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_commercial_cstm-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_commercial_com_proposal_1_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_commercial_com_meter_1_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solr_commercial_audit-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solar_solar_ops-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solar_solar_ops_ops_service_1_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solar_solar_ops_notes_1_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solar_solar_ops_documents_1_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solar_solar_ops_cstm-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solar_solar_ops_cases_1_c-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-solar_solar_ops_audit-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-shippers-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-session_history-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-session_active-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-schedulers_times-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-schedulers-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-saved_search-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/sa-so/sa-so-saved_reports-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/re-ro/re-ro-roles_users-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/re-ro/re-ro-roles-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/re-ro/re-ro-roles_modules-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/re-ro/re-ro-report_schedules-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/re-ro/re-ro-report_cache-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/re-ro/re-ro-releases-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/re-ro/re-ro-relationships-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/re-ro/re-ro-ref_referral-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/re-ro/re-ro-ref_referral_cstm-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/re-ro/re-ro-ref_referral_audit-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/quo/quo-quotes-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/quo/quo-quotes_opportunities-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/quo/quo-quotes_contacts-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/quo/quo-quotes_audit-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/quo/quo-quotes_accounts-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/quo/quo-quotas-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/project-prospect/project-prospect-prospects-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/project-prospect/project-prospect-prospect_lists-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/project-prospect/project-prospect-prospect_lists_prospects-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/project-prospect/project-prospect-prospect_list_campaigns-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/project-prospect/project-prospect-project-tbl-create.sql",
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/project-prospect/project-prospect-project_task-tbl-create.sql"
 	],
 	"find":
 	{
@@ -557,9 +603,29 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"10",
+			"\n        [",
+			")\n",
+			");",
+			");,",
+			");",
+			"$table->string(",
+			"$table->integer(",
+			"  \n",
+			"function parse",
+			"parse (",
+			"parse(",
+			"parse",
+			"[a-z_0-9]+CREATE",
+			"[a-z_]+ CREATE",
+			"[a-z_]+  CREATE",
+			"^[a-z_]$\\g  CREATE TABLE",
+			"*  CREATE TABLE",
+			"Table Create Table",
+			"wireframe",
 			"login",
 			"\n                        <td class=\"center\">([0-9])</td>",
 			"\n                        <td class=\"center\">([A-Za-z])</td>",
@@ -667,34 +733,21 @@
 			"typeof",
 			"overdue",
 			"overue",
-			"{\n",
-			"GetInse",
-			"Damang",
-			"loadfuelandmileagehistory",
-			"}            ",
-			"mileagehistory",
-			"mileage",
-			"formAmendment",
-			"name=\"amoun",
-			"creditCardDe",
-			"creditcarddetails",
-			"checkScheduleConflicts",
-			"Maintenance Reserv",
-			"responded",
-			"checkoutcar",
-			"checkout",
-			"bookingjson",
-			"id_vehicle",
-			"Other",
-			"other",
-			"GetInsert"
+			"{\n"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			"",
+			" => $faker,",
+			" => $faker;",
+			"",
+			"CREATE",
+			"\n;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",
+			"\n////////////////////////////////////////////////////////////////////",
 			"",
 			"{{ asset('/bower_resources",
 			"js') }}\"",
@@ -751,53 +804,53 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Http/Controllers/WireframeController.php",
+					"file": "composer.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1222,
+						"buffer_size": 876,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1176,
-								1176
+								282,
+								282
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 411.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "resources/views/wireframe/dashboard.blade.php",
+					"file": "database/seeds/FactSolarProjectsTableSeeder.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3818,
+						"buffer_size": 1090,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3468,
-								3468
+								312,
+								312
 							]
 						],
 						"settings":
@@ -807,10 +860,161 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1358.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Http/Controllers/WireframeController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4250,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										3254,
+										3254
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								3881,
+								3881
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1152.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/includes/head.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/wireframe/projects.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5211,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										1363,
+										1363
+									],
+									[
+										1791,
+										1791
+									],
+									[
+										2748,
+										2748
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								3914,
+								3914
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1339.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "database/seeds/DimTimeTableSeeder.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1315,
+								1315
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 384.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -859,7 +1063,7 @@
 	"project": "sunworksdw.sublime-project",
 	"replace":
 	{
-		"height": 90.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -1,6 +1,7 @@
 <?php namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Crypt;
 
 class AppServiceProvider extends ServiceProvider {
 
@@ -11,7 +12,10 @@ class AppServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		//
+		view()->composer('layout.dashboard', function($view){
+            // $view->with('test', 'key');
+            $view->withEncryptedCsrfToken(Crypt::encrypt(csrf_token()));
+        });
 	}
 
 	/**

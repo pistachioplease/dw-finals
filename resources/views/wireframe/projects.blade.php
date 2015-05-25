@@ -25,7 +25,7 @@
                 </div>
                 <!-- /.panel-heading -->
                 <div class="panel-body">
-                    <div id="project-locations"></div>
+                    <div id="revenue"></div>
                 </div>
                 <!-- /.panel-body -->
             </div>
@@ -45,42 +45,26 @@
             </div>
         </div>
         <div class="col-lg-8">
-            <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+            @if ( isset($location) )
+            <table class="table table-striped table-bordered table-hover dataTable">
                 <thead>
                     <tr>
                         <th>Location</th>
                         <th>Projects</th>
-                        <th>% Projects</th>
+                        <th>Revenue</th>
                     </tr>
                 </thead>
                 <tbody>
+                    @foreach ( $location as $value ) 
                     <tr>
-                        <td>Los Angeles</td>
-                        <td>310</td>
-                        <td>72%</td>
+                        <td>{{ $value['location'] }}</td>
+                        <td>{{ $value['total'] }}</td>
+                        <td>{{ $value['revenue'] }}</td>
                     </tr>
-                    <tr>
-                        <td>San Francisco</td>
-                        <td>75</td>
-                        <td>15%</td>
-                    </tr>
-                    <tr>
-                        <td>San Diego</td>
-                        <td>50</td>
-                        <td>10%</td>
-                    </tr>
-                    <tr>
-                        <td>Bakersfield</td>
-                        <td>20</td>
-                        <td>4%</td>
-                    </tr>
-                    <tr>
-                        <td>MacFarland</td>
-                        <td>5</td>
-                        <td>1%</td>
-                    </tr>
+                    @endforeach
                 </tbody>
             </table>
+            @endif
         </div>
     </div>
     
@@ -90,19 +74,89 @@
 
 @section('script')
 <script>
+var hostname = location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '')+'/';
+
+function getHostname(string){
+    return hostname + string;
+}
+
 $(document).ready(function() {
-    $('#dataTables-example').DataTable({
+    $('.dataTable').DataTable({
             responsive: true
     });
 
-    $('.reportrange span').html(moment().subtract(29, 'days').format('MMMM D, YYYY') + ' - ' + moment().format('MMMM D, YYYY'));
+    $('.reportrange span').html(moment("2014-01-01").format('MMMM D, YYYY') + ' - ' + moment("2014-12-31").format('MMMM D, YYYY'));
  
     $('.reportrange').daterangepicker({
         format: 'MM/DD/YYYY',        
     }, function(start, end, label) {
-        console.log(start.toISOString(), end.toISOString(), label);
+        // console.log(start.toISOString(), end.toISOString(), label);
         $('.reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+        // console.log(start.format('MMM D, YYYY') + ' - ' + end.format('MMM D, YYYY'));
+
+        // get new project revenue
+        $.ajax({
+            type: "POST",
+            beforeSend: function (xhr) {
+                var token = $('meta[name="csrf_token"]').attr('content');
+                
+                if (token) {
+                      return xhr.setRequestHeader('X-XSRF-TOKEN', token);
+                }
+            },
+            url: getHostname("projectrevenue"),
+            data: {
+                start: start.format('YYYY-DD-MM'),
+                end: end.format('YYYY-DD-MM'),
+            },
+            success: function(data){
+                console.log(data);
+            },
+            dataType: "text"
+            // I should through event. With callback
+        });
+       
     });
+
 });
+
+@if ( isset($revenue) )
+// REVENUE
+google.load('visualization', '1', {packages: ['corechart', 'line']});
+google.setOnLoadCallback(drawCurveTypes);
+
+function drawCurveTypes() {
+    json = {!! $revenue !!} ;
+
+    var month_names = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+    var months = [
+        ['Month', 'Revenue'],
+    ];
+    month_names.forEach(function(value, index) {
+        ret = json.forEach(function(value2, index2) {
+            if ( value == value2.month ) {
+                months.push( [value, parseFloat(value2.revenue)] );
+                return false;
+            }
+            return true;
+        });
+        if ( ret === true )
+            months.push( [value, 0] );
+    });
+    // console.log(months);
+
+    var data = google.visualization.arrayToDataTable(months);
+
+    var options = {
+        /*title: 'Solar Projects Revenue',*/
+        // curveType: 'function',
+        legend: { position: 'bottom' }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('revenue'));
+    chart.draw(data, options);
+};
+@endif
 </script>
 @endsection

@@ -14,7 +14,15 @@ class DatabaseSeeder extends Seeder {
 	{
 		Model::unguard();
 
-		// $this->call('UserTableSeeder');
+		$this->call('DimLocationTableSeeder');
+		$this->call('DimContractorTableSeeder');
+		$this->call('DimBranchTableSeeder');
+		$this->call('DimTimeTableSeeder');
+		$this->call('DimSalesTeamTableSeeder');
+		$this->call('DimSystemTableSeeder');
+		$this->call('DimProviderTableSeeder');
+
+		$this->call('FactSolarProjectsTableSeeder');
 	}
 
 }

@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{ url('wireframe') }}">SUNWorks Data Warehouse v0.01</a>
+        <a class="navbar-brand" href="{{ url('') }}">SUNWorks Data Warehouse v0.01</a>
     </div>
     <!-- /.navbar-header -->
 
@@ -62,7 +62,7 @@
                 <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
                 </li>
                 <li class="divider"></li>
-                <li><a href="{{ url('wireframe/login') }}"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                <li><a href="{{ url('login') }}"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                 </li>
             </ul>
             <!-- /.dropdown-user -->
@@ -75,12 +75,12 @@
         <div class="sidebar-nav navbar-collapse">
             <ul class="nav" id="side-menu">
                 <li>
-                    <a href="{{ url('wireframe') }}"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                    <a href="{{ url('') }}"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Reports<span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
-                        <li><a href="{{ url('wireframe/projects') }}">Projects</a></li>
+                        <li><a href="{{ url('projects') }}">Projects</a></li>
                         <li><a href="#">Locations</a></li>
                         <li><a href="#">Contractors</a></li>
                         <li><a href="#">Providers</a></li>
@@ -89,14 +89,14 @@
                     <!-- /.nav-second-level -->
                 </li>
                 <li>
-                    <a href="{{ url('wireframe/adhoc') }}"><i class="fa fa-pencil-square-o fa-fw"></i> Ad-hoc Query</a>
+                    <a href="{{ url('adhoc') }}"><i class="fa fa-pencil-square-o fa-fw"></i> Ad-hoc Query</a>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-wrench fa-fw"></i> Administration<span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
-                        <li><a href="{{ url('wireframe/cronlog') }}"><i class="fa fa-history fa-fw"></i> CRON Log</a></li>
-                        <li><a href="{{ url('wireframe/stagingdb') }}"><i class="fa fa-database fa-fw"></i> Staging DB</a></li>
-                        <li><a href="{{ url('wireframe/dwadmin') }}"><i class="fa fa-cube fa-fw"></i> DW Admin</a></li>
+                        <li><a href="{{ url('cronlog') }}"><i class="fa fa-history fa-fw"></i> CRON Log</a></li>
+                        <li><a href="{{ url('stagingdb') }}"><i class="fa fa-database fa-fw"></i> Staging DB</a></li>
+                        <li><a href="{{ url('dwadmin') }}"><i class="fa fa-cube fa-fw"></i> DW Admin</a></li>
                     </ul>
                 </li>
             </ul>
