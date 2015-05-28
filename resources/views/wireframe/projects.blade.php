@@ -82,7 +82,7 @@ function getHostname(string){
 
 $(document).ready(function() {
     $('.dataTable').DataTable({
-            responsive: true
+        responsive: true
     });
 
     $('.reportrange span').html(moment("2014-01-01").format('MMMM D, YYYY') + ' - ' + moment("2014-12-31").format('MMMM D, YYYY'));

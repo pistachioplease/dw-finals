@@ -356,30 +356,6 @@
 	"buffers":
 	[
 		{
-			"file": "composer.json",
-			"settings":
-			{
-				"buffer_size": 876,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "database/seeds/FactSolarProjectsTableSeeder.php",
-			"settings":
-			{
-				"buffer_size": 1090,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/WireframeController.php",
-			"settings":
-			{
-				"buffer_size": 4250,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "resources/views/includes/head.blade.php",
 			"settings":
 			{
@@ -388,18 +364,10 @@
 			}
 		},
 		{
-			"file": "resources/views/wireframe/projects.blade.php",
+			"file": "resources/views/includes/footer.blade.php",
 			"settings":
 			{
-				"buffer_size": 5211,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "database/seeds/DimTimeTableSeeder.php",
-			"settings":
-			{
-				"buffer_size": 1770,
+				"buffer_size": 1745,
 				"line_ending": "Unix"
 			}
 		}
@@ -442,9 +410,6 @@
 	[
 		"/var/www/sunworksdw",
 		"/var/www/sunworksdw/app",
-		"/var/www/sunworksdw/app/Http",
-		"/var/www/sunworksdw/app/Http/Controllers",
-		"/var/www/sunworksdw/app/Providers",
 		"/var/www/sunworksdw/database",
 		"/var/www/sunworksdw/database/seeds",
 		"/var/www/sunworksdw/public",
@@ -461,9 +426,16 @@
 	],
 	"file_history":
 	[
+		"/var/www/sunworksdw/resources/views/layout/dashboard.blade.php",
+		"/var/www/sunworksdw/resources/views/wireframe/projects.blade.php",
+		"/media/td/TOLITS/01 DEV/ACCESS - SERVER.txt",
+		"/media/td/TOLITS/01 DEV/freelance/sunworks.com - JG/ACCESS - sw.txt",
+		"/var/www/sunworksdw/composer.json",
+		"/var/www/sunworksdw/database/seeds/FactSolarProjectsTableSeeder.php",
+		"/var/www/sunworksdw/app/Http/Controllers/WireframeController.php",
+		"/var/www/sunworksdw/resources/views/includes/head.blade.php",
 		"/var/www/sunworksdw/public/js/google-charts-sample-data.js",
 		"/var/www/sunworksdw/app/Http/routes.php",
-		"/var/www/sunworksdw/resources/views/layout/dashboard.blade.php",
 		"/var/www/sunworksdw/storage/logs/laravel-2015-05-25.log",
 		"/var/www/sunworksdw/app/Providers/AppServiceProvider.php",
 		"/var/www/sunworksdw/resources/views/wireframe/dashboard.blade.php",
@@ -472,7 +444,6 @@
 		"/var/www/sunworksdw/database/seeds/DatabaseSeeder.php",
 		"/var/www/sunworksdw/database/seeds/DimSalesTeamTableSeeder.php",
 		"/var/www/sunworksdw/database/migrations/2015_05_25_000830_create_factsolarprojects_table.php",
-		"/var/www/sunworksdw/database/seeds/FactSolarProjectsTableSeeder.php",
 		"/var/www/sunworksdw/database/seeds/DimSystemTableSeeder.php",
 		"/var/www/sunworksdw/database/seeds/DimTimeTableSeeder.php",
 		"/var/www/sunworksdw/database/seeds/DimBranchTableSeeder.php",
@@ -582,13 +553,7 @@
 		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/quo/quo-quotes_contacts-tbl-create.sql",
 		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/quo/quo-quotes_audit-tbl-create.sql",
 		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/quo/quo-quotes_accounts-tbl-create.sql",
-		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/quo/quo-quotas-tbl-create.sql",
-		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/project-prospect/project-prospect-prospects-tbl-create.sql",
-		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/project-prospect/project-prospect-prospect_lists-tbl-create.sql",
-		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/project-prospect/project-prospect-prospect_lists_prospects-tbl-create.sql",
-		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/project-prospect/project-prospect-prospect_list_campaigns-tbl-create.sql",
-		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/project-prospect/project-prospect-project-tbl-create.sql",
-		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/project-prospect/project-prospect-project_task-tbl-create.sql"
+		"/home/td/Documents/ACAD/Data Warehouse/sunworks-alldatabase/quo/quo-quotas-tbl-create.sql"
 	],
 	"find":
 	{
@@ -606,6 +571,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"data",
+			"admin",
 			"10",
 			"\n        [",
 			")\n",
@@ -731,9 +698,7 @@
 			"HEAD",
 			"all(",
 			"typeof",
-			"overdue",
-			"overue",
-			"{\n"
+			"overdue"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -804,112 +769,11 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "composer.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 876,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								282,
-								282
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "database/seeds/FactSolarProjectsTableSeeder.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1090,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								312,
-								312
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/Http/Controllers/WireframeController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4250,
-						"regions":
-						{
-							"bookmarks":
-							{
-								"flags": 144,
-								"icon": "bookmark",
-								"regions":
-								[
-									[
-										3254,
-										3254
-									]
-								],
-								"scope": "bookmarks"
-							}
-						},
-						"selection":
-						[
-							[
-								3881,
-								3881
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1152.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "resources/views/includes/head.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -921,8 +785,8 @@
 						"selection":
 						[
 							[
-								246,
-								246
+								543,
+								543
 							]
 						],
 						"settings":
@@ -933,88 +797,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "resources/views/wireframe/projects.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5211,
-						"regions":
-						{
-							"bookmarks":
-							{
-								"flags": 144,
-								"icon": "bookmark",
-								"regions":
-								[
-									[
-										1363,
-										1363
-									],
-									[
-										1791,
-										1791
-									],
-									[
-										2748,
-										2748
-									]
-								],
-								"scope": "bookmarks"
-							}
-						},
-						"selection":
-						[
-							[
-								3914,
-								3914
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1339.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "database/seeds/DimTimeTableSeeder.php",
-					"semi_transient": true,
+					"buffer": 1,
+					"file": "resources/views/includes/footer.blade.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1770,
+						"buffer_size": 1745,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1315,
-								1315
+								1152,
+								1152
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 384.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
